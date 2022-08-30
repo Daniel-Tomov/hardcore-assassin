@@ -1,0 +1,8 @@
+name: HardcoreAssassin
+version: 1.0
+main: me.cageydinosaur.hardcore_assassin.Main
+api-version: 1.19
+commands:
+  assassins:
+    usage: /assassins
+    description: Command for seeing other commands for plugin

@@ -1,0 +1,17 @@
+
+# Message to send to the assassin when they have been assigned a target
+# Use "<player>" for the target the hunter will be hunting.
+# Use "&" for colors.
+assassin_Message: "&cYou will have to kill <player>"
+
+# Print extra messages to players.
+# En example would be players are reminded of the amount of lives they have when they join
+# Or how much lives they have after they kill a player
+verbosity: true
+
+# Allow dying of natural causes such as fall damage and mobs
+natural_Causes: true
+
+# Amount of pairs (assassins and targets are a pair) to have. 
+# If there are less than n * 2, there will be an error 
+amount_Of_Assassins: 3
