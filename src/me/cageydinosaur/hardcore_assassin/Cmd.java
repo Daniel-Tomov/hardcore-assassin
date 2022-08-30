@@ -45,6 +45,8 @@ public class Cmd implements CommandExecutor {
 						+ " - Adds the current respawns to the config file.");
 			if (sender.hasPermission("assassins.random"))
 				sender.sendMessage(ChatColor.RED + "/assassins random" + ChatColor.GREEN + " - Randomizes assassins.");
+			if (sender.hasPermission("assassins.finish"))
+				sender.sendMessage(ChatColor.RED + "/assassins finish" + ChatColor.GREEN + " - Kills any assassins that haven't killed their target.");
 			return true;
 		}
 
